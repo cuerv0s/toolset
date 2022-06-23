@@ -32,10 +32,10 @@ function FindReact(dom, traverseUp = 0) {
 }
 
 // Usage
-const someElement = document.getElementById("someElement");
-const myComp = FindReact(someElement);
-myComp.setState({test1: test2});
+// const someElement = document.getElementById("someElement");
+// const myComp = FindReact(someElement);
+// myComp.setState({test1: test2});
 
 // Bypass inbetween comps.
-const target = document.getElementById("target");
-const myComp = FindReact(target, 1);   // provide traverse-up distance here
+// const target = document.getElementById("target");
+// const myComp = FindReact(target, 1);   // provide traverse-up distance here
